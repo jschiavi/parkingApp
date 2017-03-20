@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CD40AC713BA1F070828BFF5 /* libPods-ParkingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B334EC311ECF4C5DC3CCC65 /* libPods-ParkingApp.a */; };
 		D42A90841E666E28007BD701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A90831E666E28007BD701 /* AppDelegate.swift */; };
 		D42A90861E666E28007BD701 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A90851E666E28007BD701 /* ViewController.swift */; };
 		D42A90891E666E28007BD701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42A90871E666E28007BD701 /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		D42A90911E666E28007BD701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42A908F1E666E28007BD701 /* LaunchScreen.storyboard */; };
 		D42A909C1E666E28007BD701 /* ParkingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A909B1E666E28007BD701 /* ParkingAppTests.swift */; };
 		D42A90A71E666E28007BD701 /* ParkingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A90A61E666E28007BD701 /* ParkingAppUITests.swift */; };
+		D42A90B51E666E4A007BD701 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D42A90B41E666E4A007BD701 /* Podfile */; };
+		D42A90B71E667422007BD701 /* UF.png in Resources */ = {isa = PBXBuildFile; fileRef = D42A90B61E667422007BD701 /* UF.png */; };
+		D45B27DE1E79CBA900CAAE61 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B27DD1E79CBA900CAAE61 /* MapViewController.swift */; };
+		D45B27E01E79CF9200CAAE61 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B27DF1E79CF9200CAAE61 /* TableViewCell.swift */; };
+		D45B27E21E79D18300CAAE61 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B27E11E79D18300CAAE61 /* SearchViewController.swift */; };
+		D45B27E41E79DE0400CAAE61 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B27E31E79DE0400CAAE61 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87572044113D900E6330BA66 /* Pods-ParkingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParkingApp/Pods-ParkingApp.release.xcconfig"; sourceTree = "<group>"; };
+		9B334EC311ECF4C5DC3CCC65 /* libPods-ParkingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParkingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42A90801E666E28007BD701 /* ParkingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42A90831E666E28007BD701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D42A90851E666E28007BD701 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		D42A90A21E666E28007BD701 /* ParkingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42A90A61E666E28007BD701 /* ParkingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingAppUITests.swift; sourceTree = "<group>"; };
 		D42A90A81E666E28007BD701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42A90B41E666E4A007BD701 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D42A90B61E667422007BD701 /* UF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UF.png; path = ../../../../../UF.png; sourceTree = "<group>"; };
+		D45B27DD1E79CBA900CAAE61 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D45B27DF1E79CF9200CAAE61 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D45B27E11E79D18300CAAE61 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D45B27E31E79DE0400CAAE61 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F00B446BD76F42CAC095BF78 /* Pods-ParkingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParkingApp/Pods-ParkingApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD40AC713BA1F070828BFF5 /* libPods-ParkingApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +93,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68CE5CC6341FCB2847FCF596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B334EC311ECF4C5DC3CCC65 /* libPods-ParkingApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69A500984E578CA799EA5618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F00B446BD76F42CAC095BF78 /* Pods-ParkingApp.debug.xcconfig */,
+				87572044113D900E6330BA66 /* Pods-ParkingApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D42A90771E666E23007BD701 = {
 			isa = PBXGroup;
 			children = (
+				D42A90B41E666E4A007BD701 /* Podfile */,
 				D42A90821E666E28007BD701 /* ParkingApp */,
 				D42A909A1E666E28007BD701 /* ParkingAppTests */,
 				D42A90A51E666E28007BD701 /* ParkingAppUITests */,
 				D42A90811E666E28007BD701 /* Products */,
+				69A500984E578CA799EA5618 /* Pods */,
+				68CE5CC6341FCB2847FCF596 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +139,13 @@
 				D42A90831E666E28007BD701 /* AppDelegate.swift */,
 				D42A90851E666E28007BD701 /* ViewController.swift */,
 				D42A90871E666E28007BD701 /* Main.storyboard */,
+				D45B27E11E79D18300CAAE61 /* SearchViewController.swift */,
+				D45B27DF1E79CF9200CAAE61 /* TableViewCell.swift */,
+				D45B27E31E79DE0400CAAE61 /* DetailViewController.swift */,
+				D45B27DD1E79CBA900CAAE61 /* MapViewController.swift */,
 				D42A908D1E666E28007BD701 /* Assets.xcassets */,
 				D42A908F1E666E28007BD701 /* LaunchScreen.storyboard */,
+				D42A90B61E667422007BD701 /* UF.png */,
 				D42A90921E666E28007BD701 /* Info.plist */,
 				D42A908A1E666E28007BD701 /* ParkingApp.xcdatamodeld */,
 			);
@@ -135,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D42A90AB1E666E28007BD701 /* Build configuration list for PBXNativeTarget "ParkingApp" */;
 			buildPhases = (
+				6AF4CB543FA63D631DD08B00 /* [CP] Check Pods Manifest.lock */,
 				D42A907C1E666E24007BD701 /* Sources */,
 				D42A907D1E666E24007BD701 /* Frameworks */,
 				D42A907E1E666E24007BD701 /* Resources */,
+				F85D544E479DEF586E910F5A /* [CP] Embed Pods Frameworks */,
+				1E1DC92D8251834FAC3A3313 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +241,7 @@
 				TargetAttributes = {
 					D42A907F1E666E24007BD701 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 62B7ZV2VB2;
 						ProvisioningStyle = Automatic;
 					};
 					D42A90961E666E28007BD701 = {
@@ -235,8 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42A90B71E667422007BD701 /* UF.png in Resources */,
 				D42A90911E666E28007BD701 /* LaunchScreen.storyboard in Resources */,
 				D42A908E1E666E28007BD701 /* Assets.xcassets in Resources */,
+				D42A90B51E666E4A007BD701 /* Podfile in Resources */,
 				D42A90891E666E28007BD701 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +305,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E1DC92D8251834FAC3A3313 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkingApp/Pods-ParkingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF4CB543FA63D631DD08B00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F85D544E479DEF586E910F5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkingApp/Pods-ParkingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D42A907C1E666E24007BD701 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45B27E21E79D18300CAAE61 /* SearchViewController.swift in Sources */,
+				D45B27E01E79CF9200CAAE61 /* TableViewCell.swift in Sources */,
 				D42A90861E666E28007BD701 /* ViewController.swift in Sources */,
 				D42A90841E666E28007BD701 /* AppDelegate.swift in Sources */,
+				D45B27DE1E79CBA900CAAE61 /* MapViewController.swift in Sources */,
 				D42A908C1E666E28007BD701 /* ParkingApp.xcdatamodeld in Sources */,
+				D45B27E41E79DE0400CAAE61 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +514,11 @@
 		};
 		D42A90AC1E666E28007BD701 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00B446BD76F42CAC095BF78 /* Pods-ParkingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 62B7ZV2VB2;
 				INFOPLIST_FILE = ParkingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ParkingUF.ParkingApp;
@@ -426,8 +529,11 @@
 		};
 		D42A90AD1E666E28007BD701 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87572044113D900E6330BA66 /* Pods-ParkingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 62B7ZV2VB2;
 				INFOPLIST_FILE = ParkingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ParkingUF.ParkingApp;
@@ -509,6 +615,7 @@
 				D42A90AD1E666E28007BD701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D42A90AE1E666E28007BD701 /* Build configuration list for PBXNativeTarget "ParkingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +624,7 @@
 				D42A90B01E666E28007BD701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D42A90B11E666E28007BD701 /* Build configuration list for PBXNativeTarget "ParkingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +633,7 @@
 				D42A90B31E666E28007BD701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
